@@ -1,0 +1,5 @@
+Tabela magazyn:
+- id produktu (liczba, primary key [1 - tarcza, 2 - francuz])
+- nazwa (tekst, 128 znaków, unikalna, not null)
+- cena (liczba, cena > 0, not null)
+- stan (liczba, check stan > 0, not null)

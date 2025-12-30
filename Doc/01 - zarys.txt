@@ -1,0 +1,36 @@
+Formularz logowania:
+- edit login
+- edit pass
+- hiperłącze zarejestruj się
+- hiperłącze zapomniałem hasła
+
+Formularz rejestracji:
+- edit login
+- edit e-mail
+- edit pass
+- edit pass2
+
+Formularz aministratora:
+:-= USTAWIENIA
+- kalendarz dni czynnych (wraz z godzinami otwarcia)
+- ilość osi strzeleckich
+- cena za godzinę/osoba na osi
+- cena za cały dzień dla jednej osi
+- cena za cały dzień na całą strzelnicę
+- cena za tarczę strzelecjką
+- cena za "francuza"
+
+:-= ADMINISTRACJA
+- potwierdzenie rezerwacji osi
+- potwierdzenie rezerwacji strzelnicy
+- dodaj/odejmij stan tarcz strzeleckich
+- dodaj/odejmij stan tarczy typu "franzuc"
+- lista kont: blokowanie, usuwanie
+
+Formularz klienta:
+- zarezerwuj oś (liczba osób/godzin/oś na cały dzień)
+- zarezerwuj strzelnicę
+- potwierdź przybycie (w dniu rezerwacji)
+- kup tarczę
+- kup "francuza"
+- zgłoś usunięcie konta

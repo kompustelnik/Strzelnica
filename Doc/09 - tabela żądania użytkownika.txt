@@ -1,0 +1,6 @@
+Tabela konta żądania
+- id (liczba, primary key, autoincrement)
+- id użytkownika (liczba, foreign key -> tabela zarejestrowanych użytkowników, not null)
+- typ żądania (liczba, wznowienie/usunięcie konta [1-2], not null)
+- status (liczba, oczekujące/spełnione [1-2], not null)
+- data żądania (data, not null, current timestamp)

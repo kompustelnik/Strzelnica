@@ -1,0 +1,6 @@
+Tabela dni czynnych
+- id (liczba, primary key, autoincrement)
+- dzień tygodnia (liczba, unikalna, constraint 1-7, not null)
+- godzina otwarcia (godzina, not null)
+- godzina zamknięcia (godzina, constraint godzina zamknięcia > godzina otwarcia, not null)
+- status (liczba, otwarte/nieczynne, not null)

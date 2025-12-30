@@ -1,0 +1,4 @@
+Tabela osi strzeleckiej
+- ID (liczba, primary key, autoincrement, unikalna)
+- numer osi (liczba, unikalna, not null)
+- status (liczba, czynna/nieczynna, not null)

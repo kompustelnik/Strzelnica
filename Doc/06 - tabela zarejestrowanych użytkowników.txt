@@ -1,0 +1,10 @@
+Tabela zarejestrowanych użytkowników
+- ID (liczba unikatowa, primary key, autoincrement)
+- login (tekst, 32 znaki, unikalny, not null)
+- email (tekst, 64 znak, unikalny, not null)
+- hasło (tekst, 255 znaków, hash hasła użytkownika)
+- data urodzenia (data)
+- data utworzenia (data)
+- ostatnio zalogowany (data, godzina)
+- status (liczba, aktywny, zablokowany, skasowany, w trakcie weryfikacji)
+- rola (liczba, użytkownik, administrator, dev)

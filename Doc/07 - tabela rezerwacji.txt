@@ -1,0 +1,7 @@
+Tabela rezerwacji:
+- id (liczba, primary key, autoincrement)
+- id użytkownika (liczba, foreign key ID użytkownika, not null)
+- id osi strzeleckiej (liczba, foreign key ID osi strzeleckiej, not null)
+- data i godzina początku rezerwacji (data, not null)
+- data i godzina końca rezerwacji (data, not null, constraint data i godzina końca rezerwacji > data i godzina początku rezerwacji)
+- status rezerwacji (liczba, potwierdzona/niepotwierdzona/anulowana, not null)

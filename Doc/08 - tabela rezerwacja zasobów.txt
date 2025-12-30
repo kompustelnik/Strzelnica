@@ -1,0 +1,5 @@
+Tabela rezerwacja zasobów
+- id (liczba, primary key, autoincrement)
+- id rezerwacji (liczba, foreign key id rezerwacji, not null)
+- id zasobu (liczba, foreign key id zasobu z tabeli magazyn, not null)
+- ilosc (liczba, check ilosc >= 0, not null)

@@ -1,0 +1,4 @@
+Tabela cennik usług:
+- id (liczba, primary key, autoincrement)
+- typ usługi (liczba, cena za h/osoba, cena za dzień/oś, cena za dzień/strzelnica [1-3], not null)
+- cena (liczba, > 0, not null)
